@@ -1,81 +1,120 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-    <meta  charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Hanwei Sword Shop</title>
-    
-
 </head>
 
 <body>
-    <div class="container-fluid" style="height: 50px;">
-        <div class="row" >
+
+    
+    <div class="container-fluid py-2 bg-white">
+        <div class="row align-items-center">
+
+            
             <div class="col-3">
-                logo
+                <a href="index.html">
+                <img src="HANWEI-LOGO-.webp" class="img-fluid" alt="Hanwei Logo">
+                </a>
             </div>
+
+            
             <div class="col-6">
-                <div class="input-group mb-3">
-                        <i class="bi bi-search"></i>
+                <div class="input-group">
+                    <span class="input-group-text bg-secondary border-0">
+                        <i class="bi bi-search text-white"></i>
                     </span>
-                     <input type="text" class="form-control" placeholder="Search..." aria-label="Search">
+                    <input type="text" class="form-control bg-secondary text-white border-0"
+                           placeholder="Search..." aria-label="Search">
                 </div>
             </div>
-            <div class="col-3">
-                profile, shopping cart
-            </div>
-        </div>
 
+            <!-- Profile and Cart -->
+            <div class="col-3 d-flex justify-content-end gap-3">
+                <a href="#" class="text-black text-decoration-none">
+                    <i class="bi bi-cart fs-4"></i>
+                </a>
+                <a href="#" class="text-black text-decoration-none">
+                    <i class="bi bi-person fs-4"></i>
+                </a>
+               
+            </div>
+
+        </div>
     </div>
 
+    
     <div class="container-fluid bg-black">
-        <div class="row text-white text-center bg-black" style="height: 70px;" >
-            <div class="col bg-black h-100" style="border:1px solid grey;">
-                 <a class="nav-link" href="#">Decorative Swords</a>
+        <div class="row text-white text-center">
+            <div class="col bg-black" style="border: 1px solid #444;">
+                <a class="nav-link text-white py-3" href="DecorativeSwords.html">Decorative Swords</a>
             </div>
-            <div class="col  bg-black h-100" style="border:1px solid grey;">
-                 <a class="nav-link" href="#">Chinese Swords</a>
+            <div class="col bg-black" style="border: 1px solid #444;">
+                <a class="nav-link text-white py-3" href="#">Chinese Swords</a>
             </div>
-            <div class="col bg-black h-100" style="border:1px solid grey;">
-                 <a class="nav-link" href="#">Japanese Swords</a>
+            <div class="col bg-black" style="border: 1px solid #444;">
+                <a class="nav-link text-white py-3" href="#">Japanese Swords</a>
             </div>
-            <div class="col bg-black h-100" style="border:1px solid grey;">
-                 <a class="nav-link" href="#">European Swords</a>
+            <div class="col bg-black" style="border: 1px solid #444;">
+                <a class="nav-link text-white py-3" href="#">European Swords</a>
             </div>
-            <div class="col bg-black h-100" style="border:1px solid grey;">
-                 <a class="nav-link" href="#">Supplementary Products</a>
+            <div class="col bg-black" style="border: 1px solid #444;">
+                <a class="nav-link text-white py-3" href="#">Supplementary Products</a>
             </div>
-            <div class="col bg-black h-100" style="border:1px solid grey;">
-                 <a class="nav-link" href="#">Feedback</a>
+            <div class="col bg-black" style="border: 1px solid #444;">
+                <a class="nav-link text-white py-3" href="#">Feedback</a>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <img src="53193 copy trim.jpg">
-        <div class="centered-text">Welcome to the official European webshop of Hanwei. With us you can buy a real functional sword. Our expertise lies with Japanese Swords, European Swords and Chinese Swords.</div>
-    </div>
-
-    <div class="row text-white" style="height: 300px;">
-
-    </div>
-
-    <div class="container device-width">
-        <div class="col device-width">
-            <a href="https://www.example.com">
-                <img src="image-source.jpg" >
-            </a>
+    <div class="container-fluid px-0 position-relative">
+        <img src="53193 copy trim.jpg" class="w-100" style="max-height: 400px; object-fit: cover;" alt="Hero sword image">
+        <div class="position-absolute bottom-0 start-0 end-0 text-white text-center p-4"
+             style="background: linear-gradient(transparent, rgba(0,0,0,0.8));">
+            Welcome to the official European webshop of Hanwei. With us you can buy a real functional sword.
         </div>
     </div>
+
+    <!-- Product cards section -->
+    <div class="row g-4">
+
+    <div class="col-4">
+        <a href="#">
+            <img src="Chinese Swords.png" class="w-100" alt="Japanese Swords">
+            
+        </a>
+    </div>
+
+    <div class="col-4">
+        <a href="#">
+            <img src="Japanese Swords.png" class="w-100" alt="European Swords">
+            
+        </a>
+    </div>
+
+    <div class="col-4">
+        <a href="#">
+            <img src="European Swords.png" class="w-100" alt="Chinese Swords">
+            
+        </a>
+    </div>
+
+</div>
+
+<div class="position-relative">
+    <img src="history background swords 2.png" class="w-100" alt="description">
+    <p class="position-absolute top-50 translate-middle-y start-50 translate-middle-x text- text-center mt-3" style="padding-right: 80px;">
+       In 1990, Paul Chen founded the Hanwei Forge, named after the Han Dynasty, a period known for its advancements in metallurgy and weaponry. The forge was established with the vision of reviving the ancient art of sword making while incorporating modern manufacturing techniques. Located in Dalian, China, Hanwei Forge quickly gained a reputation for producing high-quality swords that were both functional and aesthetically pleasing. Hanwei Europe Shop is now a specialist in Japanese martial arts items and has an extensive assortment for the collector and serious martial arts practitioner. Hanwei has a quality wide and deep range of Japanese, European and Chinese swords.
+    </p>
+</div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
 </body>
-
-<footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-</footer>
+</html>

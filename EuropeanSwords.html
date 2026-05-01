@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hanwei Sword Shop</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="container-fluid py-2 bg-dark">
+        <div class="row align-items-center">
+            <div class="col-3">
+                <a href="index.html">
+                    <img src="HANWEI-LOGO-.webp" class="img-fluid" alt="Hanwei Logo">
+                </a>
+            </div>
+            <div class="col-6">
+                <div class="input-group">
+                    <span class="input-group-text bg-secondary border-0">
+                        <i class="bi bi-search text-white"></i>
+                    </span>
+                    <input type="text" class="form-control bg-secondary text-white border-0" placeholder="Search..." aria-label="Search">
+                </div>
+            </div>
+            <div class="col-3 d-flex justify-content-end gap-3">
+                <a href="#" class="text-white text-decoration-none">
+                    <i class="bi bi-cart fs-4"></i>
+                </a>
+                <a href="#" class="text-white text-decoration-none">
+                    <i class="bi bi-person fs-4"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="container-fluid bg-black">
+        <div class="row text-white text-center">
+            <div class="col bg-black" style="border: 1px solid #444;">
+                <a class="nav-link text-white py-3" href="DecorativeSwords.html">Decorative Swords</a>
+            </div>
+            <div class="col bg-black" style="border: 1px solid #444;">
+                <a class="nav-link text-white py-3" href="ChineseSwords.html">Chinese Swords</a>
+            </div>
+            <div class="col bg-black" style="border: 1px solid #444;">
+                <a class="nav-link text-white py-3" href="JapaneseSwords.html">Japanese Swords</a>
+            </div>
+            <div class="col bg-black" style="border: 1px solid #444;">
+                <a class="nav-link text-white py-3" href="EuropeanSwords.html">European Swords</a>
+            </div>
+            <div class="col bg-black" style="border: 1px solid #444;">
+                <a class="nav-link text-white py-3" href="SupplementaryProducts.html">Supplementary Products</a>
+            </div>
+            <div class="col bg-black" style="border: 1px solid #444;">
+                <a class="nav-link text-white py-3" href="Feedback.html">Feedback</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main content: sidebar + products -->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Sidebar -->
+            <div class="col-2 bg-black text-white pt-4" style="min-height: 100vh;">
+                <h6>Shop By</h6>
+                <hr style="border-color: #444;">
+
+                <p class="mb-2"><strong>Steel Type</strong></p>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="steel1">
+                    <label class="form-check-label" for="steel1">1095 Carbon</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="steel2">
+                    <label class="form-check-label" for="steel2">T10 Carbon</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="steel3">
+                    <label class="form-check-label" for="steel3">5160 Carbon</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="steel4">
+                    <label class="form-check-label" for="steel4">9260 Carbon</label>
+                </div>
+
+                <p class="mt-4 mb-2"><strong>Price</strong></p>
+                <input type="range" class="form-range" min="0" max="1000" value="500">
+                <small>€0 — €1000</small>
+            </div>
+
+            <!-- Product grid -->
+            <div class="col-10 pt-4" style="background-color: #111;">
+                <div class="row g-4">
+
+                    <!-- Repeat this block for each sword -->
+                    <div class="col-3">
+                        <a href="#" class="text-decoration-none text-white">
+                            <img src="sword-image.jpg" class="w-100" alt="Sword Name" style="height: 200px; object-fit: cover;">
+                            <p class="mt-2 mb-0">Sword Name</p>
+                            <small class="text-secondary">€199</small>
+                        </a>
+                    </div>
+
+                    <div class="col-3">
+                        <a href="#" class="text-decoration-none text-white">
+                            <img src="sword-image.jpg" class="w-100" alt="Sword Name" style="height: 200px; object-fit: cover;">
+                            <p class="mt-2 mb-0">Sword Name</p>
+                            <small class="text-secondary">€199</small>
+                        </a>
+                    </div>
+
+                    <div class="col-3">
+                        <a href="#" class="text-decoration-none text-white">
+                            <img src="sword-image.jpg" class="w-100" alt="Sword Name" style="height: 200px; object-fit: cover;">
+                            <p class="mt-2 mb-0">Sword Name</p>
+                            <small class="text-secondary">€199</small>
+                        </a>
+                    </div>
+
+                    <div class="col-3">
+                        <a href="#" class="text-decoration-none text-white">
+                            <img src="sword-image.jpg" class="w-100" alt="Sword Name" style="height: 200px; object-fit: cover;">
+                            <p class="mt-2 mb-0">Sword Name</p>
+                            <small class="text-secondary">€199</small>
+                        </a>
+                    </div>
+
+                    <div class="col-3">
+                        <a href="#" class="text-decoration-none text-white">
+                            <img src="sword-image.jpg" class="w-100" alt="Sword Name" style="height: 200px; object-fit: cover;">
+                            <p class="mt-2 mb-0">Sword Name</p>
+                            <small class="text-secondary">€199</small>
+                        </a>
+                    </div>
+
+                    <div class="col-3">
+                        <a href="#" class="text-decoration-none text-white">
+                            <img src="sword-image.jpg" class="w-100" alt="Sword Name" style="height: 200px; object-fit: cover;">
+                            <p class="mt-2 mb-0">Sword Name</p>
+                            <small class="text-secondary">€199</small>
+                        </a>
+                    </div>
+
+                    <div class="col-3">
+                        <a href="#" class="text-decoration-none text-white">
+                            <img src="sword-image.jpg" class="w-100" alt="Sword Name" style="height: 200px; object-fit: cover;">
+                            <p class="mt-2 mb-0">Sword Name</p>
+                            <small class="text-secondary">€199</small>
+                        </a>
+                    </div>
+
+                    <div class="col-3">
+                        <a href="#" class="text-decoration-none text-white">
+                            <img src="sword-image.jpg" class="w-100" alt="Sword Name" style="height: 200px; object-fit: cover;">
+                            <p class="mt-2 mb-0">Sword Name</p>
+                            <small class="text-secondary">€199</small>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
