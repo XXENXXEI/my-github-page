@@ -30,7 +30,26 @@ body {
 }
 
 body {
-  background-color: black;
+  background-color: whitesmoke;
 }
+
+h2 {
+  color: black;
+  font-family:'Times New Roman', Times, serif
+}
+
+h4 {
+  color: gold;
+  text-align: center;
+  
+}
+
+.btn-gold {
+    background-color: #f7d40b;
+    border-color: #000000;
+    color: black;
+}
+
+
 
 
